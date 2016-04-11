@@ -1,6 +1,4 @@
-from pcb.component import *
-from pcb.interconnection import *
-from pcb.power import *
+from pcb import *
 
 class Led(Component):
     anode = WireAttribute()
